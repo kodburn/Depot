@@ -1,11 +1,12 @@
 /*
  *= require_tree .
  *= require_self
+ *= require jquery-ui
  */
-
 body {
- margin: 0;
+    margin: 0;
 }
+
 
 #banner {
     background: #9c9;
@@ -14,6 +15,7 @@ body {
     font: small-caps 40px/40px "Times New Roman", serif;
     color: #282;
     text-align: center;
+
     img {
         float: left;
     }
@@ -30,27 +32,53 @@ body {
 
 #columns {
     background: #141;
+
     #main {
         margin-left: 17em;
         padding: 1em;
         background: white;
     }
+
     #side {
         float: left;
         padding: 1em 2em;
         width: 13em;
         background: #141;
+
+        div,
+        form {
+            display: inline;
+        }
+
+        input {
+            font-size: small;
+        }
+
+        #cart {
+            font-size: smaller;
+            color: white;
+
+            table {
+                border-top: 1px dotted #595;
+                border-bottom: 1px dotted #595;
+                margin-bottom: 10px;
+            }
+        }
+
         ul {
             padding: 0;
+
             li {
                 list-style: none;
+
                 a {
                     color: #bfb;
                     font-size: small;
                 }
+
                 #time {
-                  padding-top: 10px;
-                  color:  #bfb;
+                    padding-top: 10px;
+                    color: #bfb;
                 }
             }
         }

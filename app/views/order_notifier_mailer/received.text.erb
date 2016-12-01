@@ -1,0 +1,5 @@
+Dear <%= @order.name %>
+The administration of Depot is grateful for your purchase.
+You ordered the following products:
+<%= render @order.line_items -%>
+When your order will be sent, we will notify you via email.

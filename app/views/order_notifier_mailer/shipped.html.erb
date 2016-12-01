@@ -1,0 +1,11 @@
+<h3>Order from Pragmatic Order has been sent</h3>
+<p>
+    We sent your order:
+</p>
+<table>
+    <tr>
+        <th colspan="2">Amount</th>
+        <th>Description</th>
+    </tr>
+    <%= render @order.line_items -%>
+</table>

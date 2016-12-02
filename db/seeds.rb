@@ -34,3 +34,15 @@ Product.create!(title: 'Rails Test Prescriptions',
       </p>},
                 image_url: 'rtp.jpg',
                 price: 34.95)
+# . . .
+
+Product.create!(title: 'Rails, Angular, Postgres, and Bootstrap, Second Edition',
+                description:
+    %{<p>
+        Achieve awesome user experiences and performance with simple, maintainable code!
+         Embrace the full stack of web development, from styling with Bootstrap,
+         building an interactive user interface with Angular 2, to storing data
+         quickly and reliably in PostgreSQL
+      </p>},
+                image_url: 'rapb.jpg',
+                price: 24.95)

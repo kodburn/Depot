@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: kodburn
+  password_digest: <%= BCrypt::Password.create('Syasysns97') %>
+
+two:
+  name: Ann
+  password_digest: <%= BCrypt::Password.create('secret') %>
